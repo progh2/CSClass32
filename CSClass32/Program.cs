@@ -114,6 +114,9 @@ namespace CSClass32
             {
                 Console.WriteLine(item); 
             }
+
+            Method method = new Method();
+            Console.WriteLine(method.Multi(52, 273));
         }
     }
 }
