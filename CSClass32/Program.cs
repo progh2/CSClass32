@@ -123,6 +123,18 @@ namespace CSClass32
             Console.WriteLine(Method.Abs(100));
             //Console.WriteLine(method.Abs(100));   // Java는 가능, C#은 불가능
 
+            // Method Overloading
+            //int
+            Console.WriteLine(MyMath.Abs(52));
+            Console.WriteLine(MyMath.Abs(-52));
+
+            //double
+            Console.WriteLine(MyMath.Abs(52.273));
+            Console.WriteLine(MyMath.Abs(-52.273));
+
+            //long
+            Console.WriteLine(MyMath.Abs(2223456789L));
+            Console.WriteLine(MyMath.Abs(-2223456789L));
 
         }
     }
