@@ -11,5 +11,10 @@ namespace CSClass32
             //base.Eat();
             Console.WriteLine("왈왈 짖습니다.");
         }
+
+        public override void Eat()
+        {
+            Console.WriteLine("강아지 사료를 먹습니다.");
+        }
     }
 }

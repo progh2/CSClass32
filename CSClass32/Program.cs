@@ -226,8 +226,13 @@ namespace CSClass32
             Console.WriteLine(((Parent)c).variable);
             c.Method();
             ((Parent)c).Method();
-            
+            c.Method2();
+            ((Parent)c).Method2();
 
+            foreach(var item in animals)
+            {
+                item.Eat();
+            }
 
         }
     }
