@@ -3,9 +3,13 @@
 namespace CSClass32
 {
     public class Parent
+    //public sealed class Parent
+    //public abstract class Parent
     {
         public static int counter = 0;
         public int variable = 273;
+
+        //abstract public void Method3();
 
         public void Method()
         {
