@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace CSClass32
 {
-    internal class Program
+    internal class Program        
     {
+        public static int number = 10;
+
         static void Main(string[] args)
         {
             Car car = new Car();
@@ -213,6 +215,18 @@ namespace CSClass32
             Console.WriteLine("p counter: " + Parent.counter + " / c counter: " + Child.counter);
             child.CountParent();
             Console.WriteLine("p counter: " + Parent.counter + " / c counter: " + Child.counter);
+
+            // 새도잉
+            int number = 20;
+            Console.WriteLine(number);
+
+            // 하이딩
+            Child c = new Child();
+            Console.WriteLine(c.variable);
+            Console.WriteLine(((Parent)c).variable);
+            c.Method();
+            ((Parent)c).Method();
+            
 
 
         }
